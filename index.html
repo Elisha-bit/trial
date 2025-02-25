@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+       <img src="img/download6.jpg" alt="">
+         <nav>
+            <li>
+                <a href="#Home">Home</a>
+                <a href="#about">About</a>
+                <a href="#history">History</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </li>
+         </nav>
+       
+    </header>
+
+    <div class="loader"></div>
+
+    <div class="content">
+        <h1>WELCOME TO SAFARI VALLEY RESORT</h1>
+        <h3>A PLACE OF RELAXATION LIKE NO OTHER</h3>
+        <h3>JION ME AS WE EXPLORE THE DEPTS OF THIS FUN PACK RESORT</h3>
+    </div>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img class="images" src="img/download5.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Safari</span></h2>
+            <h3>What is the SAFARI VALLEY RESORT all about?</h3>
+            <p>Safari Valley Resort is a luxurious eco-friendly retreat located in the Eastern Region of Ghana, about 65 kilometers from Accra. Set in the picturesque Okere District, it offers a blend of comfort and nature, with accommodations that include private cabins, many of which feature their own swimming pools. The resort is committed to sustainability, using solar energy, wastewater recycling, and other green practices.</p>
+            <p>
+                Guests can enjoy a variety of recreational activities, such as cycling, golf, archery, horseback riding, and seasonal adventures like canoeing and visits to the butterfly sanctuary. There are also wellness offerings like a gym and personal training.
+                
+                Dining at the resort emphasizes fresh, farm-to-table meals, sourced from their own farms. Safari Valley Resort is praised for its serene atmosphere, luxurious amenities, and commitment to environmental conservation, making it an ideal destination for relaxation, adventure, and sustainability.</p>
+
+        </div>
+    </section>
+    <section class="history" id="history">
+        <div class="history-img" id="history">
+            <img src="img/download3.jpg" alt="">
+        </div>
+        <div class="history-content" id="history-content">
+            <h1>Learn About Our History</h1>
+            <h3>We have so many rich history here at Safari Resort</h3>
+            <p>Safari Valley Resort was established with a vision to create a luxury eco-tourism destination that harmonizes with nature. It is situated in the scenic Okere District of the Eastern Region of Ghana, close to the Aburi Hills. The resort was designed to offer a unique combination of relaxation and adventure, while promoting sustainability and environmental conservation. </p>
+                <p>
+                The founders sought to provide a high-end experience that integrates green practices like solar energy use, wastewater recycling, and the cultivation of their own farm produce. This eco-friendly approach is central to the resort's mission, which is to offer guests an immersive experience in nature without compromising on comfort.
+                
+                Since its inception, Safari Valley Resort has grown in popularity for its luxurious accommodations, diverse recreational activities, and commitment to sustainable tourism. It has become a sought-after destination for both local and international visitors looking to explore the natural beauty of Ghana in a tranquil and eco-conscious environment.</p>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="gallery-container">
+        <div class="gallery-box">
+            <img src="img/download5.jpg" alt="" width="100%">
+            <div class="gallery-layer">
+                <h4>Take a look at our placeof relaxation</h4>
+                <p>come and have a relaxing time you never experienced before</p>
+            </div>
+        </div>
+
+            <div class="gallery-box">
+                <img src="img/download4.jpg" alt=""  width="100%">
+                <div class="gallery-layer">
+                    <h4>Take a look at our placeof relaxation</h4>
+                    <p>come and have a relaxing time you never experienced before</p>
+                </div>
+            </div>
+
+            <div class="gallery-box">
+                <img src="img/download3.jpg" alt=""  width="100%">
+                <div class="gallery-layer">
+                    <h4>Take a look at our placeof relaxation</h4>
+                    <p>come and have a relaxing time you never experienced before</p>
+                </div>
+            </div>
+
+            <div class="gallery-box">
+                <img src="img/download2.jpg" alt=""  width="100%">
+                <div class="gallery-layer">
+                    <h4>Take a look at our placeof relaxation</h4>
+                    <p>come and have a relaxing time you never experienced before</p>
+                   
+                </div>
+            </div>
+
+            <div class="gallery-box">
+                <img src="img/download1.jpg" alt=""  width="100%">
+                <div class="gallery-layer">
+                    <h4>Take a look at our placeof relaxation</h4>
+                    <p>come and have a relaxing time you never experienced before</p>
+                </div>
+            </div>
+            <div class="gallery-box">
+                <img src="img/download6.jpg" alt=""  width="100%">
+                <div class="gallery-layer">
+                    <h4>Take a look at our placeof relaxation</h4>
+                    <p>come and have a relaxing time you never experienced before</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+
+       
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="full Name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messages"></textarea>
+            <input type="submit" value="send Messages" class="btn">
+        </form>
+    </section>
+
+    <script>
+alert("Welcome to my experience Ghana");
+ window.addEventListener("load",() =>{
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader-hidden");
+
+loader.addEventListener("transitionend",() => {
+document.body.removeChild("loader");
+})});
+    </script>
+</body>
+</html> 
